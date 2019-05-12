@@ -1,4 +1,6 @@
-## LAB 02 - creating docker swarm
+# LAB 02 - creating docker swarm
+
+### Initiate swarm and deploy simple hello world app
 
 Add 2 more instances in PWD
 
@@ -32,7 +34,7 @@ check status:
 
 `docker sercice ps <container_id>`
 
-# Adding two tier app and scale web service:
+### Adding two tier app and scale web service:
 
 1. Create overlay network segment
 

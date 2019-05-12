@@ -26,12 +26,12 @@ wait until node will be ready:
 
 create POD:
 
-`kubectl apply -f `
+`kubectl apply -f https://github.com/fwardzic/bth2019/blob/master/lab-04/pod.yaml`
 
 create deployment:
 
-`kubectl apply -f `
+`kubectl apply -f https://github.com/fwardzic/bth2019/blob/master/lab-04/deployment.yaml`
 
 create service:
 
-`kubectl apply -f `
+`kubectl apply -f https://github.com/fwardzic/bth2019/blob/master/lab-04/service.yaml`

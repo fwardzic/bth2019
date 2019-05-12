@@ -24,8 +24,7 @@ def get_hit_count():
 @app.route('/')
 def hello():
     count = get_hit_count()
-    return "Hello Dokcer, you have seen this message {}\n".format(count)
-
+    return "Hello Dokcer, this message comes from {} web-server, you have seen this message {} times.\n".format(socket.gethostname(), count)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)

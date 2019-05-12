@@ -5,7 +5,7 @@ metadata:
   name: helloworld-service
 spec:
   ports:
-  - port:
+  - port: 32770
     targetPort: 80
     protocol: TCP
   selector:

@@ -4,4 +4,7 @@ In this excercise you will create container which will contain web-server with t
 
 First clone git repository with the 2048 game:
 
-All credits goes to https://github.com/gabrielecirulli/2048
+`git clone https://github.com/gabrielecirulli/2048`
+
+All credits goes to Gabriele Cirulli - author of the 2048 game.
+

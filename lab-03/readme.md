@@ -60,6 +60,6 @@ Test output:
 
 5. perform rolling update:
 
-`docker service update --update-parallelism 1 --update-delay 5s --image fwardzic/bth-web-app:v1 web`
+`docker service update --update-parallelism 1 --update-delay 5s --image fwardzic/bth-web-app:v2 web`
 
 Keep watching responses from web-server in terminal with curl requests

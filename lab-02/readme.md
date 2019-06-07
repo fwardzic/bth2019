@@ -20,4 +20,5 @@ services:
     ports:
      - "5000:5000"
   redis:
-    image: "redis:alpine"~~~
+    image: "redis:alpine"
+~~~

@@ -1,4 +1,4 @@
-LAB 02 docker compose
+## LAB 02 docker compose
 
 The goal of this labs is to create a composable instruction to that will setup two-tier application (web and DB) and expose service for web server to be reachable by users.
 
@@ -21,4 +21,3 @@ services:
      - "5000:5000"
   redis:
     image: "redis:alpine"~~~
-    

@@ -62,4 +62,4 @@ Test output:
 
 `docker service update --update-parallelism 1 --update-delay 5s --image fwardzic/bth-web-app:v1 web`
 
-Keep watching responses from web-server in terminal with curl requests.
+Keep watching responses from web-server in terminal with curl requests

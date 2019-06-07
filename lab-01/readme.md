@@ -80,4 +80,4 @@ Commit container:
 
 `docker stop db2c356a51c1`
 
-`docker run -d -P <your_docker_hub_user_id>/bth-2048:v1`
+`docker run -d -P <your_docker_hub_user_id>/bth-2048:v2`

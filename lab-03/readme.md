@@ -1,4 +1,4 @@
-# LAB 02 - creating docker swarm
+# LAB 03 - creating docker swarm
 
 ### Initiate swarm and deploy simple hello world app
 
@@ -10,7 +10,7 @@ https://labs.play-with-docker.com/
 
 `docker swarm init --advertise-addr <IP_addr_node1>`
 
-2. On node2 and node3 execute join command to add them to the swarm.
+2. On node2 and node3 execute join command to add them to the swarm cluster.
 
 3. Check status of swarm nodes on master
 

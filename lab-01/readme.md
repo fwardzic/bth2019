@@ -37,7 +37,7 @@ check web what's displayed on the webpage
 
 `docker ps`
 
-2. Open web page in docker host, or by clicking on the port link abouve terminal in PWD.
+2. Open web page in docker host using following command or by clicking on the port link abouve terminal in PWD.
 
 `curl 127.0.0.1:32770`
 
@@ -63,7 +63,7 @@ edit file:
 
 `vi /etc/nginx/conf.d/default.conf`
 
-add following statement:
+replace existing statement with the following in the `location /` section:
 
 ```
 <snip>

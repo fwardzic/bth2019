@@ -13,7 +13,8 @@ Go to the cloned repository -> lab02 folder, create a 'dockerfile' with the inst
 
 Once dockerfile will be created, start working on instruction to build docker image, run it and expose its service in one manifest file.
 
-~~~version: '3'
+~~~~
+version: '3'
 services:
   web:
     build: .
@@ -21,4 +22,4 @@ services:
      - "5000:5000"
   redis:
     image: "redis:alpine"
-~~~
+~~~~
